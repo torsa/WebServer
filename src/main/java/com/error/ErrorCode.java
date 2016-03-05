@@ -1,26 +1,55 @@
 package com.error;
 
 /**
- * Created by dtorsa on 5/03/2016.
+ * Error code enum.
+ *
+ * @author Torsa Das
  */
 public enum ErrorCode {
-    BAD_REQUEST("400","Bad Requst"),
-    NOT_FOUND("404","Not Found"),
-    FORBIDDEN("403","Forbidden"),
-    INTERNAL_SERVER_ERROR("500","Internal Server Error");
+    /**
+     * BAD_REQUEST.
+     */
+    BAD_REQUEST("400", "Bad Request"),
 
+    /**
+     * NOT_FOUND.
+     */
+    NOT_FOUND("404", "Not Found");
+
+
+    /**
+     * Error Name.
+     */
     private String errorName;
+
+    /**
+     * Error code.
+     */
     private String code;
 
-    private ErrorCode(String code,String name) {
+    /**
+     * Constructor.
+     * @param errorCode
+     * @param name
+     */
+    ErrorCode(final String errorCode, final String name) {
         this.errorName = name;
-        this.code =code;
+        this.code = errorCode;
     }
 
+
+    /**
+     * Returns errroName.
+     * @return errorName
+     */
     public String getErrorName() {
         return errorName;
     }
 
+    /**
+     * Returns errroCode.
+     * @return code
+     */
     public String getCode() {
         return code;
     }

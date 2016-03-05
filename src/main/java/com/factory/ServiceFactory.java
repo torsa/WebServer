@@ -16,7 +16,6 @@ import java.io.PrintStream;
 public class ServiceFactory {
 
     public static ApplicationService getService(OutputStream outputStream, PrintStream printStream) {
-
         return new DirectoryListingService(outputStream, printStream);
     }
 }

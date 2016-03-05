@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: com.com.service.directory.DirectoryListingServiceTest
+Test set: com.util.PropertyHandlerTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.453 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec

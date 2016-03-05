@@ -24,7 +24,7 @@ public class DirectoryListingService implements ApplicationService {
     private OutputStream outputStream;
     private PrintStream printStream;
     private String directory;
-
+    private  ErrorHandler errorHandler =new ErrorHandler();
     public DirectoryListingService(OutputStream out, PrintStream print) {
         this.outputStream = out;
         this.printStream = print;

@@ -15,6 +15,7 @@ public class WebServerUtilTest {
         assertEquals("image/gif",WebServerUtil.getMIMEType(".gif"));
         assertEquals("image/jpeg",WebServerUtil.getMIMEType(".jpeg"));
         assertEquals("text/plain",WebServerUtil.getMIMEType(".java"));
+        assertEquals("text/xml",WebServerUtil.getMIMEType(".xml"));
     }
 
     @Test
