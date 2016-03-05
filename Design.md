@@ -11,5 +11,8 @@
 #Enhancements
 1. Request validation could be enhanced by checking Forbidden and UnAuthorized requests.
 2. Test coverage needs to be enhanced.
-3. Currently the application cannoy handle concurrent request, it could be enhanced by using threads.
+3. Multithreading (maintain thread pool, pass each request to an idle thread) 
+4. Read all request header (If-Modified-Since, ...) .
+5. HTTP authentication 
+6. Functionality to navigate back to parent folder
 
