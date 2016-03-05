@@ -8,14 +8,15 @@ import java.io.OutputStream;
 import java.io.PrintStream;
 
 /**
- * This is the general Error Handler class for the Web Server.
- * This could be enhanced for further Error handling
+ * This is the Service Factory
+ * This could be enhanced for further services like Directory
+ *
  * @author Torsa Das
  */
-public class ServiceFactory{
+public class ServiceFactory {
 
-        public static ApplicationService getService(OutputStream outputStream, PrintStream printStream){
+    public static ApplicationService getService(OutputStream outputStream, PrintStream printStream) {
 
-                return new DirectoryListingService(outputStream,printStream);
-        }
+        return new DirectoryListingService(outputStream, printStream);
+    }
 }

@@ -3,10 +3,13 @@ package com.util;
 import java.io.IOException;
 import java.util.Properties;
 
+
 /**
- * Created by dtorsa on 5/03/2016.
+ * This is a Property Utility class that could be used to read configuration.
+ *
+ * @author Torsa Das
  */
-public class PropertyHandler{
+public class PropertyHandler {
 
     private static PropertyHandler instance = null;
 
@@ -24,7 +27,7 @@ public class PropertyHandler{
         return instance;
     }
 
-    public String getValue(String propKey){
+    public String getValue(String propKey) {
         return this.properties.getProperty(propKey);
     }
 }
