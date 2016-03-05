@@ -11,7 +11,7 @@ Dependencies
 
 Installation
 
-    Download the application a. either by cloning the repository b. downloading the zip
+    Download the application either by cloning the repository or by downloading the zip
     Run Mvn install from the project root.
     The server would start listnening at port 9000 on successful Maven build.
     The port can be reconfigured by changing the file src/resources/config.properties.
