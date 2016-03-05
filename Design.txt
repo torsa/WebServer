@@ -1,0 +1,21 @@
+
+Web Server Design
+
+    Port has been made configufrable.
+    The server lists the contents of the directory in which app is running but case easily list any configurable directory.
+    The Directory Listing functionality has been decoupled from the actual server and developed as a service.
+    Scalability of the server has been considered by adding the interface ApplicationSevice.
+    Logging has been provided within the application.
+    Basic Exception handling has been provided with general web server error codes(404,403,400).
+    Basic get request validation done.
+    Junits having 42% line coverage.
+
+Enhancements
+
+    Request validation could be enhanced by checking Forbidden and UnAuthorized requests.
+    Test coverage needs to be enhanced.
+    Multithreading (maintain thread pool, pass each request to an idle thread)
+    Read all request header (If-Modified-Since, ...) .
+    HTTP authentication
+    Functionality to navigate back to parent folder
+
