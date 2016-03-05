@@ -6,6 +6,10 @@
 5. Logging has been provided within the application.
 6. Basic Exception handling has been provided with general web server error codes(404,403,400).
 7. Basic get request validation done.
+8. Junits having 42% line coverage.
 
 #Enhancements
-1. Request 
+1. Request validation could be enhanced by checking Forbidden and UnAuthorized requests.
+2. Test coverage needs to be enhanced.
+3. Currently the application cannoy handle concurrent request, it could be enhanced by using threads.
+
