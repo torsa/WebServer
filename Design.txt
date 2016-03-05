@@ -1,8 +1,8 @@
 
 Web Server Design
 
-    Port has been made configufrable.
-    The server lists the contents of the directory in which app is running but case easily list any configurable directory.
+    Port has been made configurable.
+    The server lists the contents of the directory in which the app is running but case easily list any configurable directory.
     The Directory Listing functionality has been decoupled from the actual server and developed as a service.
     Scalability of the server has been considered by adding the interface ApplicationSevice.
     Logging has been provided within the application.
