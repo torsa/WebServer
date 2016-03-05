@@ -1,0 +1,18 @@
+Synopsis
+
+The "Web Server application" is a fully functional simple Java based web server capable of displaying contents of the directory it is running in.
+Dependencies
+
+    Maven
+    JDK1.8
+    Junit
+    Mockito
+    log4j
+
+Installation
+
+    Download the application a. either by cloning the repository b. downloading the zip
+    Run Mvn install from the project root.
+    The server would start listnening at port 9000 on successful Maven build.
+    The port can be reconfigured by changing the file src/resources/config.properties.
+    Hit the url host:port(localhost:9000)
